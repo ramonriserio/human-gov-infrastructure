@@ -3,6 +3,7 @@ terraform {
     aws = {}
   }
 
+  # Preparing for Teamwork
   backend "s3" {
     bucket         = "humangov-terraform-state"
     key            = "terraform.tfstate"
